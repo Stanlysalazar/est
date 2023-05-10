@@ -1,0 +1,21 @@
+.slider{
+    aspect-ratio: 10 / 20;
+    width: 310px;
+   
+    position: center;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type:  mandatory;
+    margin-top: 10px;
+    margin-left: 35%;
+  background-color: black;
+}
+
+.slider img {
+width: 100%;
+left: 0;
+position: sticky;
+object-fit: cover;
+border-radius: 10px;
+scroll-snap-align: center;
+}
