@@ -20,7 +20,7 @@ export function Carga() {
 
     setTimeout(function(){
         setTiempo(1)
-    },5000)
+    },4000)
 
     if(estacargando){
         return(
