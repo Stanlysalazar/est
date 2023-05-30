@@ -1,0 +1,33 @@
+#puta{
+height: 300px;
+width: 360px;
+}
+
+#perr{
+    font-family: fantasy;
+    font-size: 20px;
+   color: rgb(71, 33, 71);
+}
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 52%);
+}
+
+#put {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
+}
+
+.music-card {
+  & {
+    margin: 100px auto;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    height: 500px;
+  }
+}
