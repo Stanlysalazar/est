@@ -65,7 +65,7 @@ export function Shop(){
         </section>
         <br />
 
-            <h3 className="text-center fw-bold">Productos</h3>
+            <h3 className="text-center fw-bold" id="an">Productos</h3>
          <div className="slider    ">
 
             <img src="https://firebasestorage.googleapis.com/v0/b/music-4fd4a.appspot.com/o/pro.jpg?alt=media&token=f4913609-535f-427e-81d1-4e7aea4b1f98"/>
@@ -85,7 +85,7 @@ export function Shop(){
                         <div key={producto.id}>
                                 <div className="col">
                                     <div className="card h-100 shadow">
-                                        <h3 className="text-center fw-bold">{producto.nombre}</h3>
+                                        <h3 className="text-center fw-bold" id="an">{producto.nombre}</h3>
                                         <br />
                                         <img src={producto.foto} alt="foto" className="img-fluid w-100 " />
                                         <br />

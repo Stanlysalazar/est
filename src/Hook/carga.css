@@ -1,0 +1,12 @@
+#an{
+    animation-name: miAnimacion;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        font-family: 'Niconne', cursive;
+        font-weight: 700;
+}
+@keyframes miAnimacion {
+    from {color: red;}
+    to {color: blue;}
+}

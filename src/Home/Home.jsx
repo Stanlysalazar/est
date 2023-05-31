@@ -19,7 +19,7 @@ export function Home(){
                 <div className="container my-5 wow animate__animated animate__backInDown">
                     <div className="row">
                         <div className="col-12 col-md-6 animate__animated animate__flash">
-                            <h4 className="text-center fw-bold" id='zor'>Historias</h4>
+                            <h4 className="text-center fw-bold" id="an">Historias</h4>
                             <p>
                             John Bongiovi y David Raschbaum se conocieron en el instituto de Sayreville (Nueva Jersey). Los dos solían ensayar juntos después de clase y en 1978 formaron el conjunto escolar de rythm & blues Atlantic City Expressway, en el que versionaban a otros artistas.7​ Comenzaron actuando en bailes escolares y algunos bares locales, pero pronto se ganaron cierta reputación en los clubes de South Jersey. A finales de 1979 Raschbaum ingresó al conservatorio Juilliard de Nueva York para estudiar música, mientras que Bongiovi se unió a The Rest, que le dio la oportunidad de escribir y tocar sus propias canciones, en este caso más orientadas al hard rock. Uno de esos temas, «Shot Through The Heart» —coescrito junto con su compañero y líder del grupo Jack Ponti— formaría parte del primer álbum de Bon Jovi. El mayor logro de The Rest fue hacer de teloneros para Hall & Oates en Nueva Jersey, ante un aforo de 20 000 espectadores. Sin embargo, frustrado por la falta de interés de las discográficas, Jack Ponti decidió disolverlo
                             </p>

@@ -13,7 +13,7 @@ export function History(){
             <div className="container  wow animate__animated animate__backInDown">
                 <div className="row">
                     <div className="col-12">
-                        <h4 className="text-center fw-bold" id='zor'>Historia de la banda</h4>
+                        <h4 className="text-center fw-bold" id="an">Historia de la banda</h4>
                         <br />
                         <br />
                         <img src="https://firebasestorage.googleapis.com/v0/b/music-4fd4a.appspot.com/o/img2.jpg?alt=media&token=77888988-62d0-4a63-ab75-6378cc0bc305" alt="foto" className="img-fluid w-100"/>

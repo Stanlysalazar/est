@@ -1,3 +1,4 @@
+import './carga.css'
 import { useState, useEffect } from "react"
 export function Carga() {
 
@@ -28,7 +29,7 @@ export function Carga() {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <h3>Estamos cargando</h3>
+                        <h3 className="text-center fw-bold" id="an">Estamos cargando</h3>
                         <img src="../../src/assets/img/giphy.gif"  className="img-fluid mx-auto d-block" />
                     </div>
                 </div>
@@ -38,7 +39,7 @@ export function Carga() {
     }else{
         return(
             <>
-            <h4>Carga completa</h4>
+            <h4 className="text-center fw-bold" id="an">Carga completa</h4>
             </>
         )
     }

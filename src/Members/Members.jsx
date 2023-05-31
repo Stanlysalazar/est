@@ -69,7 +69,7 @@ export function Members() {
                             <div key={integrante.id}>
                                 <div className="col">
                                     <div className="card h-100 shadow">
-                                        <h3 className="text-center fw-bold">{integrante.nombre}</h3>
+                                        <h3 className="text-center fw-bold" id="an" >{integrante.nombre}</h3>
                                         <br />
                                         <img src={integrante.foto} alt="foto" className="img-fluid w-100 " onMouseOver={quehagocuandosedeelevento} onMouseLeave={cambio} />
                                         <br />

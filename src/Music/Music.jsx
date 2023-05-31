@@ -19,7 +19,19 @@ useEffect(function(){
 
 },[])
 
-
+const renderTrackImage = (track) => {
+    let imgs = track?.album?.images;
+    return (
+      imgs?.length !== 0 && (
+        <img
+          key={imgs[1]?.url}
+          src={imgs[1]?.url}
+          width={imgs[1]?.width}
+          height={imgs[1]?.height}
+        />
+      )
+    );
+  };
 
 if(estacargando){
     return(
@@ -45,8 +57,11 @@ return(
                                 <>
                                 <div className="col music-card">
                                     <div className="card h-100 shadow text-align-center  ">
-                                    <h5 className="text-center fw-bold">Cliente: {cancion.name}</h5>
-                                    <img src={cancion.images}  id="puta"/>
+                                    <h5 className="text-center fw-bold" id="an">Cancion: {cancion.name}</h5>
+                                    <p id='aaa'>
+
+                                    {renderTrackImage(cancion) }
+                                    </p>
                                     <audio controls src={cancion.preview_url}></audio>
                                     <p className="text-center fw-bold" id='perr'>albun: {cancion.album.name} </p>
                                     <p  className="text-center fw-bold" id='perr'>duracion: {cancion.duration_ms}</p>
